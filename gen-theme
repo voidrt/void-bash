@@ -1,0 +1,11 @@
+#!/bin/sh
+
+WALL=$1
+mode=$2
+
+xwallpaper --$mode $WALL
+
+wal -c
+wal -i $WALL
+
+xdotool key alt+F5

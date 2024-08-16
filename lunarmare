@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+lunarmaria=("Mare Cognitum" "Mare Serenitatis" "Mare Imbrium" "Mare Nubium" "Oceanus Procellarum" "Mare Tranquillitatis" "Mare Crisium")
+currentmare=$(date +%u) 
+
+echo ${lunarmaria[$currentmare - 1]} 

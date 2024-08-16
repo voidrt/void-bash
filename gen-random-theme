@@ -1,0 +1,10 @@
+#!/bin/sh
+
+wallpaper=$(find ~/Downloads/wallpapers/ -type f -name "*.jpg" -o -name "*.png" | shuf -n 1)
+
+xwallpaper --maximize $wallpaper
+
+wal -c 
+wal -i $wallpaper
+
+xdotool key alt+F5
