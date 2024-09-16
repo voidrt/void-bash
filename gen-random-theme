@@ -2,7 +2,7 @@
 
 wallpaper=$(find ~/Downloads/wallpapers/ -type f -name "*.jpg" -o -name "*.png" | shuf -n 1)
 
-xwallpaper --maximize $wallpaper
+xwallpaper --zoom $wallpaper
 
 wal -c 
 wal -i $wallpaper

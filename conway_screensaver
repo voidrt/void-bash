@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd .local/src/conway-screensaver/ && ./conway
